@@ -1,0 +1,7 @@
+price=float(input("Enter Price: "))
+discount_percent=float(input("Enter discount percent: "))
+discount=price*discount_percent/100
+selling_price=price-discount
+print("Cost Price:",price)
+print("Discount:",discount)
+print("Selling Price:",selling_price)
